@@ -1,1 +1,39 @@
-#include <stdio.h>
+/*struct <name_struct>
+{
+  <type> <name1>;
+  <type> <name2>;
+  .....
+};
+*/
+
+/*struct <name_struct>
+{
+  <type> <name1>;
+  <type> <name2>;
+  ...
+} <name_1> = {...} , <name_2> ; 
+*/
+
+/*typedef struct 
+{
+  <type> <name1>;
+  <type> <name2>;
+  ...
+ } <name_struct>;
+ <name_struct> <name>;
+ */
+//truy xuất dữ liệu 
+// <name_struct> -> <name_thành phần>  (biến con trỏ)
+// <name_struct>.<name_thành phần>  (biến không phải con trỏ)
+/*ex: 
+struct name 
+{ int x; 
+  int y;
+} d1, *d2;
+d1.x=...; d1.y=....; d2->x=...; d2->y=...;
+*/
+// kích thước biến cấu trúc
+// canh biên cho cấu trúc : #pragma pack (1)
+
+
+
