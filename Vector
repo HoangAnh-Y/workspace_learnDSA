@@ -1,0 +1,35 @@
+vector<type_data> name
+name.push_back()
+
+name.pop_back()
+
+name.resize()
+
+name.capacity()
+name.size()
+name.max_size()
+
+name.at()
+
+name.begin()
+
+name.end()
+
+name.front()
+
+name.back()
+
+name.empty()
+
+name.erase(name.begin()+x)     // int x; delete name[x]
+name.erase(name.begin()+x, name.begin()+y)    // int x,y; delete name[x] -> name[y-1]
+
+name.clear()
+
+name.insert(name.begin()+x, value)  // int x; insert value to name[x]
+name.insert(name.begin()+x, number_insert, value) // int x; insert value number_insert times to name[x]
+ex: a.insert(a.begin()+2, 3, 5) => insert 5 three times to a[2], it means a[2] includes 3 number 5 
+name.insert(name.begin()+x, name2.begin()+y, name2.begin()+z)   // int x,y,z; insert name2[y] -> name2[z-1] to name[x]
+// if name2 is array, instead name2.begin()+y / z of name2+y / z
+
+name.swap(name2)
